@@ -51,14 +51,13 @@
 }
 
 .a {
-  text-decoration: none;
   text-decoration: underline;
   text-underline-offset: 3.7px;
 }
 
 .cover {
   position: relative;
-  padding: 40px 380px 287px 380px;
+  padding: 40px 35% 287px 34.5%;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
@@ -142,7 +141,7 @@
 }
 
 .lots {
-  padding: 206px 25px 140px 25px;
+  padding: 206px 2% 140px 2.2%;
 }
 
 .lots__card-list {
