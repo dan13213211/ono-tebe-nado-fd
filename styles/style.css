@@ -1,1 +1,363 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 93px 8px 91px 8px;
+}
+
+.img {
+  width: 136px;
+  display: block;
+  height: 100%;
+}
+
+.nav {
+  font-size: 18px;
+  align-items: center;
+}
+
+.li {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.first {
+  list-style: none;
+  padding-left: 42px;
+}
+
+.second {
+  list-style: circle;
+  text-decoration: underline;
+  text-underline-offset: 3.7px;
+  margin-left: 5px;
+  margin-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 2px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 236px;
+  justify-self: end;
+  line-height: 1.36;
+  margin-right: 45px;
+  margin-bottom: 5px;
+}
+
+.a {
+  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3.7px;
+}
+
+.cover {
+  position: relative;
+  padding: 40px 380px 287px 380px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 0.6);
+  inset: 0;
+}
+
+.aligned-text {
+  font-size: 100px;
+  position: relative;
+  color: white;
+  top: 125px;
+  right: 330px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  z-index: 2;
+}
+
+.aligned-text_center {
+  font-size: 100px;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  top: 140px;
+  letter-spacing: 30px;
+  z-index: 2;
+}
+
+.aligned-text_right {
+  font-size: 100px;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  left: 287px;
+  top: 160px;
+  letter-spacing: 30px;
+  z-index: 2;
+}
+.cover__description-text {
+  word-spacing: 18px;
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  top: 277px;
+  right: 330px;
+  white-space: nowrap;
+}
+
+.letter-spacing-extended {
+  position: relative;
+  left: 2px;
+}
+
+.no-letter-spacing {
+  position: relative;
+  left: 3px;
+}
+
+.bet-button {
+  position: relative;
+  z-index: 2;
+  left: 415px;
+  top: 238px;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid white;
+  background: transparent;
+  padding: 12px 32px;
+  color: white;
+}
+
+.lots {
+  padding: 206px 25px 140px 25px;
+}
+
+.lots__card-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.lots__card-list-item {
+  width: 330px;
+  min-height: 596px;
+}
+
+.card-link {
+  height: 100%;
+}
+
+.lots__heading {
+  position: relative;
+  bottom: 25px;
+  left: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 39px;
+  padding-right: 38px;
+}
+
+.card_title-1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-top: 49px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: white;
+  z-index: 2;
+}
+
+.card__text-1 {
+  font-size: 20px;
+  padding-top: 278px;
+  color: white;
+  z-index: 2;
+}
+
+.card_title-2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-top: 49px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: white;
+  z-index: 2;
+}
+
+.card__text-2 {
+  font-size: 20px;
+  padding-top: 36px;
+  padding-left: 1px;
+  color: white;
+  z-index: 2;
+}
+
+.card_title-3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-top: 49px;
+  padding-left: 1px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: white;
+  z-index: 2;
+}
+
+.card__text-3 {
+  font-size: 20px;
+  padding-top: 132px;
+  padding-left: 1px;
+  color: white;
+  z-index: 2;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lots__look-more-link {
+  position: relative;
+  font-size: 20px;
+  top: 31px;
+  left: 39px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: black;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 1.05fr 2fr;
+  grid-template-rows: 1.5fr 2fr;
+  width: 100%;
+  height: 610px;
+  padding-top: 50px;
+  gap: 6px;
+}
+
+.logo-wrapper {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+}
+
+.about__logo-image {
+  width: 150px;
+}
+
+.about__title {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  letter-spacing: 2px;
+}
+
+.title_text {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 20px;
+  padding-right: 25px;
+}
+
+.about__text2 {
+  padding-top: 23px;
+}
+
+.footer {
+  padding-top: 177px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.adddress {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 300px;
+  justify-self: center;
+  line-height: 1.36;
+  margin-left: 35px;
+  grid-column: 1 / 2;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+}
+
+.footer__menu-links {
+  text-decoration: none;
+}
+
+.footer__menu-link {
+  text-underline-offset: 3.7px;
+}
+
+.footer__social-list {
+  display: flex;
+  grid-column: 3 / 4;
+  width: 265px;
+  list-style: none;
+  justify-self: center;
+  gap: 47px;
+  padding-left: 26px;
+}
